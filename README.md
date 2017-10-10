@@ -9,6 +9,8 @@ exposes /deployments folder
 
 e.g.
 
-docker run -p 8080:8080 -v ~/deployments:/deployments --name wf10 {imageid}
+docker pull anothersoftwaredevelopmentblog/docker-wildfly
+
+docker run -p 8080:8080 -v ~/deployments:/deployments --name wf10 anothersoftwaredevelopmentblog/docker-wildfly
 
 
