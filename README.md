@@ -13,4 +13,10 @@ docker pull anothersoftwaredevelopmentblog/docker-wildfly
 
 docker run -p 8080:8080 -v ~/deployments:/deployments --name wf10 anothersoftwaredevelopmentblog/docker-wildfly
 
+or
+
+start in debug mode
+
+docker run -p 8080:8080 -v ~/deployments:/deployments --name wf10 anothersoftwaredevelopmentblog/docker-wildfly /opt/jboss/wildfly/bin/standalone.sh -b "0.0.0.0" --debug
+
 
