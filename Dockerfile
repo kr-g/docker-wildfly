@@ -8,6 +8,6 @@ RUN ln -s $JBOSS_HOME/standalone/deployments /deployments
 
 VOLUME /deployments
 
-
+EXPOSE 8787
 
 
